@@ -132,6 +132,7 @@ body {
     flex-direction: row;
     width: 70%;
     align-items: center;
+    margin-top: 70px;
   }
   .about h2,
   .about p {
