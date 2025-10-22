@@ -86,6 +86,7 @@ body {
   font-size: var(--p-font-size);
   line-height: 1.6;
   color: var(--p-color);
+  text-align: center;
 }
 /* icons */
 .icons {
@@ -132,7 +133,8 @@ body {
     width: 70%;
     align-items: center;
   }
-  .about h2 {
+  .about h2,
+  .about p {
     text-align: left;
   }
   .img {
