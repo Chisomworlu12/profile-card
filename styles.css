@@ -115,7 +115,7 @@ body {
   width: 70px;
   height: 30px;
   align-self: flex-start;
-  margin: 10px;
+  margin: 5px;
   position: absolute;
   right: 10;
   padding: 2px;
@@ -132,7 +132,7 @@ body {
     flex-direction: row;
     width: 70%;
     align-items: center;
-    margin-top: 100px;
+    margin-top: 90px;
   }
   .about h2,
   .about p {
