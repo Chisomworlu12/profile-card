@@ -4,8 +4,8 @@
   --shadow-color: gray;
   --img-border-color: #d4d4d4;
   --h2-color: #333;
-  --h2-font-size: 40px;
-  --p-font-size: 18px;
+  --h2-font-size: 55px;
+  --p-font-size: 25px;
   --p-color: #666;
   --icon-color: #737373;
   --card-color: #f0f0f0;
@@ -42,7 +42,7 @@ body {
 .container {
   display: flex;
   justify-content: center;
-  align-items: center;
+
   height: 100vh;
 }
 /* Profile card */
@@ -57,6 +57,8 @@ body {
   box-shadow: 3px 3px 5px var(--shadow-color);
   width: 70%;
   transition: var(--transition);
+  height: fit-content;
+  margin: 55px auto 55px;
 }
 /* img container */
 .img {
@@ -112,7 +114,7 @@ body {
   width: 60px;
   height: 40px;
   align-self: flex-start;
-  margin: 20px;
+  margin: 10px;
   position: absolute;
   right: 40;
   border-radius: 20px 20px 20px 20px;
@@ -123,6 +125,10 @@ body {
 
 /* Tablet */
 @media (min-width: 768px) {
+  :root {
+    --h2-font-size: 40px;
+    --p-font-size: 18px;
+  }
   .card {
     display: flex;
     flex-direction: column;
@@ -148,9 +154,13 @@ body {
 
 /* Desktop */
 @media (min-width: 1024px) {
+  .container {
+    align-items: center;
+  }
   .card {
     display: flex;
     flex-direction: row;
+    gap: 10px 10px;
     width: 60%;
   }
   .img {
@@ -159,6 +169,10 @@ body {
   .icon {
     width: 28px;
     height: 28px;
+  }
+  .img img {
+    width: 100%;
+    height: 100%;
   }
 }
 
