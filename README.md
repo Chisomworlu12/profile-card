@@ -100,5 +100,3 @@ The card adapts to different screen sizes using CSS media queries, ensuring opti
 X - [chisomwo](https://x.com/chisomwo)
 Github - [Chisomworlu12](https://github.com/Chisomworlu12)
 Linkedin - [chisomworlu](https://www.linkedin.com/in/chisomworlu)
-
-Project Link: [https://github.com/yourusername/profile-card](https://github.com/yourusername/profile-card)

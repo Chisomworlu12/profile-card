@@ -4,8 +4,8 @@
   --shadow-color: gray;
   --img-border-color: #d4d4d4;
   --h2-color: #333;
-  --h2-font-size: 80px;
-  --p-font-size: 25px;
+  --h2-font-size: 40px;
+  --p-font-size: 18px;
   --p-color: #666;
   --icon-color: #737373;
   --card-color: #f0f0f0;
@@ -42,7 +42,7 @@ body {
 .container {
   display: flex;
   justify-content: center;
-
+  align-items: center;
   height: 100vh;
 }
 /* Profile card */
@@ -66,9 +66,6 @@ body {
 }
 /* img container */
 .img {
-  /* width: 150px;
-  height: 150px;
-  border-radius: 50%; */
   display: flex;
   justify-content: center;
 }
@@ -131,10 +128,6 @@ body {
 
 /* Tablet */
 @media (min-width: 768px) {
-  :root {
-    --h2-font-size: 40px;
-    --p-font-size: 18px;
-  }
   .card {
     display: flex;
     flex-direction: column;
