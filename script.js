@@ -1,3 +1,4 @@
+document.addEventListener("DOMContentLoaded", () => {
 const moonBtn = document.querySelector(".moonbtn");
 const sunBtn = document.querySelector(".sunbtn");
 const themeContainer = document.querySelector(".theme-container");
@@ -49,3 +50,4 @@ function toggleTheme() {
 }
 
 themeContainer.addEventListener("click", toggleTheme);
+});
