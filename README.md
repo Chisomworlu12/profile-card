@@ -80,6 +80,8 @@ profile-card/
 ├── style.css           # Stylesheet
 ├── script.js           # JavaScript functionality
 └── README.md           # Documentation
+└── img/
+     └── chisom.jpg
 ```
 
 ## Browser Support
