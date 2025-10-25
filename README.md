@@ -77,7 +77,7 @@ Add new link elements in the HTML and style them accordingly.
 profile-card/
 │
 ├── index.html          # Main HTML file
-├── style.css           # Stylesheet
+├── styles.css           # Stylesheet
 ├── script.js           # JavaScript functionality
 └── README.md           # Documentation
 └── img/
